@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Todo Application</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/063c594bbd.js" crossorigin="anonymous"></script>
+        <body>
+            <div id= "main-section">
+                <div id= "input-section">
+                    <h1>To Do List</h1>
+                    <input type = "text" onkeypress="keyPressTodoTextHandler(event)" id="todo_text" placeholder= "enter the task"/>
+                    <button class ="addBtn" id="add_button">Add</button>
+                    
+                </div>
+                    <div>
+                        <ul id="todo-list-ul"></ul>
+                    </div>
+            </div>
+            <script src="todo.js"></script>
+        </body>
+    </head>
+</html>
